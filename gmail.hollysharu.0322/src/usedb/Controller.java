@@ -140,7 +140,7 @@ public class Controller {
 					int m = sc.nextInt();
 					if (m == 1) {
 						int r = dao.deleteMessage(deletenum);
-						if(r >= 0) {
+						if(r > 0) {
 							System.out.printf("삭제 성공\n");
 						}
 						else {
